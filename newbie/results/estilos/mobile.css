@@ -1,0 +1,207 @@
+@charset "UTF_8";
+
+/*
+Configurações para celular
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --bolac: #4826D2;
+    --bolab: #4734F0;
+    --quadroc: #6541FD;
+    --quadrob: #342EEA;
+    --botao: #303B59;
+}
+
+*{/* Configurações gerais*/
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    box-sizing: border-box;
+}
+
+html body{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    background-color: white;
+    height: 650px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main > section#resumo{
+    background-image: linear-gradient(to bottom, var(--quadroc), var(--quadrob));
+    color: lightgray;
+    text-align: center;
+    height: 280px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+h3{
+    margin: 0px 0px 20px 0px;
+    padding-top: 10px;
+    font-size: 0.85em;
+}
+
+main > section > div{
+    background-image: linear-gradient(to bottom, var(--bolac), var(--bolab));
+    border-radius: 50%;
+    width: 38%;
+    height: 40%;
+    margin: auto;
+}
+
+h1{
+    font-size: 2.8em;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: px;
+}
+
+main > section > div > p{
+    font-size: 0.8em;
+}
+
+h2{
+    font-size: 1.2em;
+    color: white;
+    margin: 10px 0px;
+    padding-top: 10px;
+}
+
+main > section > p{
+    text-align: justify center;
+    font-size: .8em;
+    padding: 0px 40px;
+}
+
+span.centro{
+    color: black;
+}
+span.direita{
+    color: lightgray;
+}
+
+article > p#summary{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 20px 0px 20px 25px;
+    border-radius: 10px;
+}
+
+p.reaction{
+    position: relative;
+    background-color: rgba(255, 0, 0, 0.05);
+    color: rgb(212, 72, 72);
+    font-size: .8em;
+    font-weight: bold;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+}
+
+article > p.reaction > span.esquerda::after{
+    content: "\00a0";
+    text-align: left;
+    margin-right: 25%;
+}
+
+article > p.reaction > span.centro::before{
+    content: "\00a0";
+    margin-left: 20%;
+}
+
+p.memory{
+    position: relative;
+    background-color: rgba(255, 166, 0, 0.080);
+    color: rgb(252, 180, 47);
+    font-size: .8em;
+    font-weight: bold;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+article > p.memory > span.esquerda::after{
+    content: "\00a0";
+    text-align: left;
+    margin-right: 25%;
+}
+
+article > p.memory > span.centro::before{
+    content: "\00a0";
+    margin-left: 20%;
+}
+
+p.verbal{
+    position: relative;
+    background-color: rgba(0, 128, 0, 0.067);
+    color: rgb(39, 211, 148);
+    font-size: .8em;
+    font-weight: bold;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+article > p.verbal > span.esquerda::after{
+    content: "\00a0";
+    text-align: left;
+    margin-right: 30%;
+}
+
+article > p.verbal > span.centro::before{
+    content: "\00a0";
+    margin-left: 20%;
+}
+
+p.visual{
+    position: relative;
+    background-color: rgba(0, 0, 255, 0.077);
+    color: rgb(0, 0, 217);
+    font-size: .8em;
+    font-weight: bold;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+article > p.visual > span.esquerda::after{
+    content: "\00a0";
+    text-align: left;
+    margin-right: 30%;
+}
+
+article > p.visual > span.centro::before{
+    content: "\00a0";
+    margin-left: 20%;
+}
+
+button{
+    display: block;
+    background-color: var(--botao);
+    color: white;
+    font-size: .9em;
+    font-weight: bolder;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 30px;
+    padding: 10px;
+    width: 270px;
+}

@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 680px) and (max-width: 1020px){
+    html body{
+        height: 100vh;
+        width: 100vw;
+        box-sizing: border-box;
+    }
+    
+    main{
+        height: 500px;
+        width: 700px;
+        padding: 50px 0px 0px 50px;
+        box-sizing: border-box;
+    }
+    
+    main > section#resumo{
+        display: inline-block;
+        background-color: yellow;
+        height: 400px;
+        width: 300px;
+        border-radius: 30px;
+        float: left;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.319);
+        box-sizing: border-box;
+    }
+
+    article{
+        display: inline-block;
+        height: 400px;
+        width: 300px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.323);
+        box-sizing: border-box;
+    }
+
+    h3{
+        margin: 0px 0px 20px 0px;
+        padding-top: 20px;
+        font-size: 0.85em;
+    }
+
+    main > section > div{
+        background-image: linear-gradient(to bottom, var(--bolac), var(--bolab));
+        border-radius: 50%;
+        width: 55%;
+        height: 40%;
+        margin: auto;
+    }
+
+    h1{
+        font-size: 3.8em;
+        color: white;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    h2{
+        font-size: 1.2em;
+        color: white;
+        margin: 10px 0px;
+        padding-top: 40px;
+    }
+    
+    main > section > p{
+        text-align: justify center;
+        font-size: .8em;
+        padding: 30px 40px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    html body{
+        height: 100vh;
+        width: 100vw;
+        box-sizing: border-box;
+    }
+    
+    main{
+        height: 500px;
+        width: 700px;
+        padding: 50px 0px 0px 50px;
+        box-sizing: border-box;
+    }
+    
+    main > section#resumo{
+        display: inline-block;
+        background-color: yellow;
+        height: 400px;
+        width: 300px;
+        border-radius: 30px;
+        float: left;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.319);
+        box-sizing: border-box;
+    }
+
+    article{
+        display: inline-block;
+        height: 400px;
+        width: 300px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.323);
+        box-sizing: border-box;
+    }
+
+    h3{
+        margin: 0px 0px 20px 0px;
+        padding-top: 20px;
+        font-size: 0.85em;
+    }
+
+    main > section > div{
+        background-image: linear-gradient(to bottom, var(--bolac), var(--bolab));
+        border-radius: 50%;
+        width: 55%;
+        height: 40%;
+        margin: auto;
+    }
+
+    h1{
+        font-size: 3.8em;
+        color: white;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    h2{
+        font-size: 1.2em;
+        color: white;
+        margin: 10px 0px;
+        padding-top: 40px;
+    }
+    
+    main > section > p{
+        text-align: justify center;
+        font-size: .8em;
+        padding: 30px 40px;
+    }
+}
+

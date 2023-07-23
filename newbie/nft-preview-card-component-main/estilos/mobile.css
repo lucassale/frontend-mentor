@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+/* Configurações mobile*/
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+/* font-family: 'Outfit', sans-serif; */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+#conteudo{
+    background-color: hsl(217, 54%, 11%);
+    height: 460px;
+    width: 260px;
+    border-radius: 15px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header{
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+header img#principal{
+    display: block;
+    height: 250px;
+    width: 260px;
+    cursor: pointer;
+}
+
+#secundario{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsla(178, 100%, 50%, 0.259);
+    cursor: pointer;
+    opacity: 0;
+}
+
+#secundario:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+h1{
+    color: white;
+    font-size: 1.3em;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    margin: 15px 0px 15px 0px;
+    text-align: justify;
+    cursor: pointer;
+}
+
+h1:hover{
+    color:hsl(178, 100%, 50%);
+}
+
+p{
+    color: rgba(255, 255, 255, 0.268);
+    font-size: .9em;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+div#valor{
+    display: inline-flex;
+    color: hsl(178, 100%, 50%);
+    font-family: 'Outfit', sans-serif;
+    font-size: .8em;
+}
+
+#valor img{
+    margin-right: 5px;
+}
+
+div#tempo{
+    display: inline-flex;
+    margin-left: 38%;
+    color: rgba(255, 255, 255, 0.268);
+    font-family: 'Outfit', sans-serif;
+    font-size: .8em;
+}
+
+#tempo img{
+    margin-right: 5px;
+}
+
+hr{
+    border: none;
+    height: .1px;
+    background-color: rgba(255, 255, 255, 0.268);
+    margin: 20px 0px;
+}
+
+div#link{
+    font-family: 'Outfit', sans-serif;
+    font-size: .8em;
+}
+
+#link img{
+    height: 25px;
+    width: 25px;
+    margin-right: 20px;
+    border-radius: 50%;
+    border: 1px solid white;
+    vertical-align: middle;
+}
+
+#link span{
+    color: rgba(255, 255, 255, 0.268);
+}
+
+#link a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.268);
+}
+
+#link a:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+footer{
+    display: block;
+    position: relative;
+    top: 100%;
+    margin: auto;
+}
+

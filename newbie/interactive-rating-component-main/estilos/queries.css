@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+*{
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    /* Cores */
+    --botao: #FC7613;/* Cor do número com o mouse em cima*/
+    --White: hsl(0, 0%, 100%);/* Cor da fonte do H1*/
+    --LightGrey: hsl(217, 12%, 63%);/* Cor da fonte do parágrafo*/
+    --MediumGrey: hsl(216, 12%, 54%);/* Cor do número escolhido*/
+    --circulo1: #222933;/* Cor de cima do section*/
+    --circulo2: #202731;
+    --circulo3: #1A212B;
+    --VeryDarkBlye: hsl(216, 12%, 8%);/* Cor de baixo do section*/
+
+    /* Fontes */
+    --font: 'Overpass', sans-serif;
+}
+
+body{
+    background-color: black;
+    font-family: var(--font);
+}
+
+section{
+    position: absolute;
+    height: 300px;
+    width: 280px;
+    background-image: radial-gradient(circle at top, var(--circulo2) 5px, var(--circulo3) 60px, var(--circulo1) 5px, var(--circulo3) 60px, var(--circulo2) 5px, var(--circulo3) 60px);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+
+img{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div{
+    height: 30px;
+    width: 160px;
+    background-color: var(--circulo1);
+    color: var(--botao);
+    text-align: center;
+    font-size: .8em;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p.resultado{
+    display: inline-flex;
+    text-align: center;
+    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p{
+    color: white;
+    font-size: .7em;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 15px;
+    text-align: center;
+}

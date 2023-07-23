@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+/*Configurações para celular*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+html body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    background-color: rgb(232, 232, 232);
+    color: gray;
+    height: 500px;
+    width: 280px;
+    text-align: justify;
+    padding: 20px 15px;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section{
+    background-color: white;
+    height: 200px;
+    margin-bottom: -19px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+section > img{
+    height: 200px;
+    width: 280px;
+}
+
+article{
+    background-color: white;
+    height: 300px;
+    margin-top: -18px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 20px 20px 1px 20px;
+}
+
+h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: .7em;
+    font-weight: 500;
+}
+
+h1{
+    color: black;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    word-wrap: -2px;
+    white-space: -2px;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 9pt;
+    word-wrap: -2px;
+    white-space: -2px;
+}
+
+span.pg{
+    color: rgb(60, 139, 130);
+    font-size: 1.7em;
+    font-weight: 700;
+    font-family: 'Fraunces', serif;
+}
+
+span.pp{
+    font-size: .7em;
+    text-decoration: line-through;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button > img{
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+button{
+    display: block;
+    background-color: rgb(54, 121, 102);
+    color: white;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+    height: 40px;
+    width: 240px;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+}
