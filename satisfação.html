@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="estilos/mobile.css">
+</head>
+<body>
+
+  <section id="fundo">
+    
+    <div id="imagem"><img src="images/icon-star.svg" alt="img-star"></div>
+
+    <h1>How did we do?</h1>
+
+    <p>
+      Please let us know how we did with your support request. All feedback is appreciated
+      to help us improve our offering!
+    </p>
+
+    <ul id="notas" onload="carregar()">
+      <li class="valor" onclick="pegar(1)">1</li> 
+      <li class="valor" onclick="pegar(2)">2</li> 
+      <li class="valor" onclick="pegar(3)">3</li> 
+      <li class="valor" onclick="pegar(4)">4</li> 
+      <li class="valor" onclick="pegar(5)">5</li>
+    </ul>
+
+    <a href="agradecimento.html" id="submit" onclick="passarNota()">Submit</a>
+
+  </section>
+    
+  
+  
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
+      Coded by <a href="#">Lucas Sales</a>
+    </div>
+  </footer>
+
+  <script src="java/script.js"></script>
+</body>
+</html>
