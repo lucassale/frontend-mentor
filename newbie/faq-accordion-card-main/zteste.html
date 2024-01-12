@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .caixa{
+            display: none;
+        }
+    
+    </style>
+
+</head>
+<body>
+
+    <main id="principal">
+
+        <section class="sessão">
+
+            <div class="caixa" style="display: block">Aqui esta a 1° div!!!
+
+                <p class="paragrafo"></p>
+
+            </div>
+            <div class="caixa">Neste lugar é a 2° div!!!
+
+                <p class="paragrafo"></p>
+
+            </div>
+            <div class="caixa">Por fim aqui ficará a 3° div!!!
+
+                <p class="paragrafo"></p>
+
+            </div>
+
+        </section>
+
+            
+
+        
+
+    </main>
+    
+    <script>
+        var section = document.querySelector('#principal')
+        var display = window.getComputedStyle(section).display
+        console.log(display)
+    </script>
+
+</body>
+</html>

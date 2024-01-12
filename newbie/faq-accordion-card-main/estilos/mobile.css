@@ -64,28 +64,26 @@ div.imagens{
 
 .sombra{
     position: absolute;
+    position: fixed;
     width: 250px;
-    transform: translate(20%, -160%);
+    transform: translate(20%, -220%);
 }
 
 .mulher{
     position: absolute;
+    position: fixed;
     width: 250px;
-    transform: translate(20%, -150%);
+    transform: translate(20%, -180%);
 }
 
 p{
     
 }
 
-#flecha{
+.flecha{
     cursor: pointer;
 }
 
 .ocultar{
     display: none;  
-}
-
-#conteudo{
-    
 }

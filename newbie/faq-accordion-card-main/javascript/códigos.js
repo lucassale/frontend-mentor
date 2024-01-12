@@ -1,1 +1,0 @@
-var opção = window.document.querySelectorAll('#conteudo')
